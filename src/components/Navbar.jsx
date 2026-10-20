@@ -16,8 +16,7 @@ export function Navbar({ cantidadCarrito }) {
         <div className="nav-grupo-der">
           <Link to="/login" className="btn-nav-accion" style={{marginRight: '8px'}}>Entrar</Link>
           <Link to="/registro" className="btn-nav-accion" style={{marginRight: '8px'}}>Registro</Link>
-          {/* El carrito ahora es un Link que lleva a la página de pago */}
-          <Link to="/carrito" className="btn-nav-accion">🛒 Carrito ({cantidadCarrito})</Link>
+          <Link to="/carrito" className="btn-nav-accion"> Carrito ({cantidadCarrito})</Link>
         </div>
       </div>
     </header>

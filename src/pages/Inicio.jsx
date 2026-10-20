@@ -11,7 +11,7 @@ export function Inicio({ onAgregar }) {
     <>
       <section className="banner">
         <div className="banner-contenido">
-          <h1>TIENDA ONLINE</h1>
+          <h1>SABOR UNICO</h1>
           <p>Comida rápida casera con ingredientes frescos y preparación al instante.</p>
         </div>
       </section>
