@@ -1,7 +1,7 @@
 export function Contacto() {
   return (
     <div className="contenedor-login">
-      <div className="tarjeta-login" style={{maxWidth: '600px'}}>
+      <div className="tarjeta-login" style={{maxWidth: '600px', margin: '40px auto'}}>
         <h2>Contáctanos</h2>
         <p className="subtitulo-login">Envíanos un mensaje y te responderemos pronto</p>
         
