@@ -22,7 +22,6 @@ export function Navbar({ cantidadCarrito }) {
         alignItems: 'center',
         justifyContent: 'space-between'
       }}>
-        {/* LOGO */}
         <Link 
           to="/" 
           onClick={cerrarMenu}
