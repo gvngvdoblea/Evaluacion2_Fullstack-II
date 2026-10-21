@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
-
+import { useNavigate } from 'react-router-dom';
 export function VistaCarrito({ carrito, setCarrito }) {
-  const total = carrito.reduce((acc, item) => acc + item.precio, 0);
+const total = carrito.reduce((acc, item) => acc + item.precio, 0);
+  const navigate = useNavigate();
 
   const handlePagar = () => {
-    alert("¡Pago realizado con éxito! Gracias por tu compra.");
-    setCarrito([]); 
+    navigate('/checkout');
   };
 
   const eliminarProducto = (index) => {
